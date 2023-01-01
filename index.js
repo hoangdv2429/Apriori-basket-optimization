@@ -1,3 +1,7 @@
+const dataset = require("./Dataset/ValidateDataset.json");
+const dataList = Object.values(dataset.map((_data) => _data["shrimp,almonds,avocado,vegetablesmix,greengrapes,wholeweatflour,yams,cottagecheese,energydrink,tomatojuice,lowfatyogurt,greentea,honey,salad,mineralwater,salmon,antioxydantjuice,frozensmoothie,spinach,oliveoil"]))
+
+
 function getRate(input, output, support, confidence) {
     const allItem = [...input, ...output]
     const countInput = dataList.filter((item) => {
@@ -30,3 +34,4 @@ function getRate(input, output, support, confidence) {
 getRate(["mineral water", "spaghetti"], ["ground beef"], 0.017, 0.286)
 getRate(["ground beef"], ["mineral water", "spaghetti"], 0.017, 0.174)
 getRate(["french fries"], ["spaghetti"], 0.028, 0.161)
+

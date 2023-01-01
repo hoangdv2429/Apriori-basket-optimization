@@ -14,6 +14,13 @@ If used with Google Colab, please make folder Dataset and upload the csv file to
 
 Using Chi Squared, Cremes V and Kulczynski to evaluate association rules. Read in notebook for more.
 
+# For rules validate
+
+make sure your terminal is in the root folder of the project, then run following command:
+
+```yarn
+node .```
+
 ## Requirement
 
 - Google colab connected to Google drive.
