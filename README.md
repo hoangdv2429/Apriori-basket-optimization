@@ -18,8 +18,8 @@ Using Chi Squared, Cremes V and Kulczynski to evaluate association rules. Read i
 
 make sure your terminal is in the root folder of the project, then run following command:
 
-```yarn
-node .```
+yarn
+node .
 
 ## Requirement
 
