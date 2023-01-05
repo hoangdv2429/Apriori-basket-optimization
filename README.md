@@ -25,5 +25,5 @@ make sure your terminal is in the root folder of the project, then run following
 
 - Google colab connected to Google drive.
 
-- Run local by using visual studio with Jupiter, Python, Pylance extension.
+- OR Run local by using visual studio with Jupiter, Python, Pylance extension.
 - Infos on packages needed is included in notebook.
